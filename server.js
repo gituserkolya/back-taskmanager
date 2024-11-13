@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Use CORS middleware
 app.use(cors()); // Allow all origins by default
-
+console.log('working');
 // Routes
 app.use('/api/users', userRoutes);
 app.use('/api/tasks', taskRoutes);
