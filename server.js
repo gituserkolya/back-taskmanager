@@ -26,7 +26,7 @@ app.use('/api/tasks', taskRoutes);
 
 
 // Basic route
-app.get('http://taskmanagerr.us-east-1.elasticbeanstalk.com/', (req, res) => {
+app.get('/', (req, res) => {
     res.send('API is running...');
 });
 
